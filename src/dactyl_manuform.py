@@ -1189,6 +1189,7 @@ def make_dactyl():
         shape = rotate(shape, rot)
         shape = translate(shape, pos)
 
+        resin = False
         if cluster is not None and resin is False:
             shape = cluster.get_extras(shape, pos)
 
